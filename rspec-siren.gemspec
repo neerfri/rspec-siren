@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["neerfri@gmail.com"]
   spec.description   = %q{RSpec for siren hypermedia}
   spec.summary       = %q{A collection of matchers and helpers for easy testing of siren objects via RSpec}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/neerfri/rspec-siren"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

@@ -1,5 +1,7 @@
 # Rspec::Siren
 
+[![Gem Version](https://badge.fury.io/rb/rspec-siren.svg)](http://badge.fury.io/rb/rspec-siren)
+
 Helpers for testing [siren](https://github.com/kevinswiber/siren) objects with
 RSpec
 
