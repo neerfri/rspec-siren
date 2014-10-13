@@ -32,6 +32,8 @@ RSpec.describe MyCustomSirenSerializer do
   it { should have_link_with_rel("my-rel") }
 
   it { should have_property("myProperty").with_value("myValue") }
+
+  it { should have_action("action_name") }
 end
 ```
 
