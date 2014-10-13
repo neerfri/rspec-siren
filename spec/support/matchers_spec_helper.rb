@@ -40,7 +40,7 @@ module RSpec
 
       def siren_actions
         [
-          { name: "update_resource" },
+          { name: "update-resource" },
         ]
       end
 
