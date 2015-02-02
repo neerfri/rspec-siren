@@ -11,6 +11,7 @@ module RSpec
           links: siren_links,
           entities: siren_entities,
           properties: siren_properties,
+          actions: siren_actions,
         }
       end
 
@@ -35,6 +36,12 @@ module RSpec
         {
           someProperty: "someValue"
         }
+      end
+
+      def siren_actions
+        [
+          { name: "update-resource" },
+        ]
       end
 
       class MatchSirenMatcher < Struct.new(:siren_hash)
